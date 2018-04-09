@@ -4,14 +4,14 @@ class CardGame
 # class should be named class Card
 
   def checkforAce(card)
-    if card.value == 1
+    if card.value = 1
       return true
     else
       return false
     end
   end
 # following errors on first method
-# 1. should be a == 1 on line 6
+# 1. should be a == 1 on line 7
 # 1. when defining a method there should be spaces between each word
 # and no capital on Ace eg def check_for_ace()
 
@@ -43,3 +43,5 @@ end
 # 1. line 35 total is an undefined variable and will create errors on lines 37 & 38.
 # 2. space should be put between of and " on line 38 so proper spacing when returned.
 # 3. additional end should be on line 41 to end class CardGame.
+# 4. total on line 35 need to be returned as a string.
+# 5. when you return this should be put outside of the loop after the loop end on line 39 as you will return the first card only.
